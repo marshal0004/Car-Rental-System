@@ -1,0 +1,24 @@
+# Python venv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Database files
+*.db
+*.db-wal
+*.db-shm
+
+# Next.js
+frontend/.next/
+frontend/node_modules/
+frontend/playwright-report/
+frontend/test-results/
+frontend/*.tsbuildinfo
+
+# pytest cache
+backend/.pytest_cache/
+
+# Environment
+.env
+.env.local
